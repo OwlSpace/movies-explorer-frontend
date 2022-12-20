@@ -1,0 +1,19 @@
+.header__button-main {
+    background: #202020;
+    border: none;
+    color: #FFFFFF;
+    width: 200px;
+    height: 22px;
+    padding: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 159px 29px 28px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.header__button-main:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}

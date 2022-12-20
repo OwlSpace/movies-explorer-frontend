@@ -1,0 +1,11 @@
+.footer__nav {
+    display: block;
+}
+
+@media screen and (max-width: 400px) {
+    .footer__nav {
+        display: flex;
+        order: -1;
+        justify-content: center;
+    }
+}

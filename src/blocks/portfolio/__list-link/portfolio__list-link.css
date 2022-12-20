@@ -1,0 +1,46 @@
+.portfolio__list-link {
+    display: grid;
+    background: transparent url("../../../images/link-profil.svg") 100%/20px no-repeat;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.portfolio__list-link:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 700px) {
+    .portfolio__list-link {
+        font-size: 25px;
+        line-height: 45px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .portfolio__list-link {
+        font-size: 20px;
+        line-height: 40px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .portfolio__list-link {
+        font-size: 18px;
+        line-height: 28px;
+        background-size: 5%10px;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .portfolio__list-link {
+        font-size: 18px;
+        line-height: 28px;
+        background-size: 5%10px;
+    }
+}

@@ -1,0 +1,51 @@
+.about-project__subtitle {
+    margin: 0;
+    padding-bottom: 26px;
+    width: 550px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+@media screen and (max-width: 1150px) {
+    .about-project__subtitle {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .about-project__subtitle {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .about-project__subtitle {
+        width: 319px;
+        padding-bottom: 23px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .about-project__subtitle {
+        width: 290px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .about-project__subtitle {
+        width: 240px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .about-project__subtitle {
+        width: 284px;
+        font-size: 18px;
+        line-height: 22px;
+        padding-bottom: 16px;
+    }
+}

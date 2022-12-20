@@ -1,0 +1,18 @@
+.navbar__menu-not-autorized {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 18px 70px 0 0;
+}
+
+@media screen and (max-width: 800px) {
+    .navbar__menu-not-autorized {
+        padding-right: 30px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .navbar__menu-not-autorized {
+        padding: 0 14px 0 0;
+    }
+}

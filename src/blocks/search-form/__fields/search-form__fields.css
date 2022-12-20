@@ -1,0 +1,11 @@
+.search-form__fields {
+    display: grid;
+    justify-content: space-between;
+    grid-auto-flow: column;
+}
+
+/*@media screen and (max-width: 900px) {*/
+/*    .search-form__fields {*/
+/*        margin: 0 52px 0 0;*/
+/*    }*/
+/*}*/

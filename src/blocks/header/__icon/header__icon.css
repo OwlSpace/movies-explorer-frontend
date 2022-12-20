@@ -1,0 +1,10 @@
+.header__icon {
+    margin-left: 13px;
+    background-image: url("../../../images/icon-main.svg");
+    background-repeat: no-repeat;
+    background-color: #313131;
+    border-radius: 6px;
+    height: 30px;
+    width: 30px;
+    background-position: 9px 8px;
+}

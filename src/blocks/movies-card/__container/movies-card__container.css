@@ -1,0 +1,6 @@
+.movies-card__container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 14px 0 29px;
+}

@@ -1,0 +1,16 @@
+.line {
+    border: none;
+    border-bottom: 1px solid #424242;
+    max-width: 1140px;
+}
+
+.line_color-size {
+    background: #DADADA;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 500px) {
+    .line_color-size {
+        width: 292px;
+    }
+}

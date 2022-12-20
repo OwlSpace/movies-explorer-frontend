@@ -1,0 +1,63 @@
+.about-me__chapter {
+    padding-bottom: 23px;
+    margin: 110px auto 70px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    width: 1140px;
+    border-bottom: 1px solid #DADADA;
+}
+
+@media screen and (max-width: 1150px) {
+    .about-me__chapter {
+        width: 950px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .about-me__chapter {
+        width: 880px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .about-me__chapter {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .about-me__chapter {
+        margin: 90px auto 66px;
+        width: 668px;
+    }
+}
+@media screen and (max-width: 700px) {
+    .about-me__chapter {
+        margin: 80px auto 60px;
+        width: 590px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .about-me__chapter {
+        width: 490px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .about-me__chapter {
+        width: 390px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .about-me__chapter {
+        width: 284px;
+        margin-top: 70px;
+        padding-bottom: 23px;
+    }
+}

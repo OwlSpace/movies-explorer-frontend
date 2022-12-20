@@ -1,0 +1,6 @@
+.header__nav {
+    visibility: hidden;
+    height: 0;
+    opacity: 0;
+    transition: .4s, opacity -.1s;
+}

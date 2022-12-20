@@ -1,0 +1,35 @@
+.promo__logo {
+    padding-top: 75px;
+    padding-right: 70px;
+    width: 310px;
+    height: 304px;
+}
+
+@media screen and (max-width: 1150px) {
+    .promo__logo {
+        padding-right: 50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .promo__logo {
+        padding: 0;
+        margin: 140px auto 48px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .promo__logo {
+        padding: 0;
+        margin: 50px auto 48px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .promo__logo {
+        padding: 0;
+        margin: 70px auto 44px;
+        width: 210px;
+        height: 206px;
+    }
+}

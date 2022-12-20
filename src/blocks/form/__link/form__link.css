@@ -1,0 +1,20 @@
+.form__link {
+    margin-left: 6px;
+    text-decoration: none;
+    color: #4285F4;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.form__link:hover {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 500px) {
+    .form__link {
+        font-size: 12px;
+        line-height: 15px;
+    }
+}

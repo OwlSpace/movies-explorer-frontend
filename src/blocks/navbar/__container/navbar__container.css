@@ -1,0 +1,5 @@
+@media screen and (max-width: 500px) {
+    .navbar__container {
+        width: 264px;
+    }
+}

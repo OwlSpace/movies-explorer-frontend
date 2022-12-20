@@ -1,0 +1,31 @@
+.techs__description {
+    width: 460px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 800px) {
+    .techs__description {
+        width: 460px;
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .techs__description {
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .techs__description {
+        width: 292px;
+        font-size: 11px;
+        line-height: 16px;
+    }
+}

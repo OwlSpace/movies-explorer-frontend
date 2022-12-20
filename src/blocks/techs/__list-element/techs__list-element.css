@@ -1,0 +1,23 @@
+.techs__list-element {
+    width: 90px;
+    height: 60px;
+    margin: 0;
+    background: #303030;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+@media screen and (max-width: 800px) {
+    .techs__list-element {
+        width: 84px;
+        height: 57px;
+        font-size: 12px;
+        line-height: 15px;
+    }
+}
