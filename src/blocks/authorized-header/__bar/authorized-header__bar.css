@@ -1,0 +1,27 @@
+@media screen and (max-width: 800px) {
+    .authorized-header__bar {
+        background-color: white;
+        height: 3px;
+        width: 28px;
+        transition: 0.2s;
+    }
+
+    .authorized-header__hamb_active {
+        z-index: 2;
+        position: fixed;
+        right: 0;
+        top: 0;
+    }
+
+    .authorized-header__hamb_active .authorized-header__bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .authorized-header__hamb_active .authorized-header__bar:nth-child(1) {
+        transform: translateY(9px) rotate(45deg);
+    }
+
+    .authorized-header__hamb_active .authorized-header__bar:nth-child(3) {
+        transform: translateY(-9px) rotate(-45deg);
+    }
+}

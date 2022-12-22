@@ -4,16 +4,22 @@ import Preloader from "./Preloader";
 function SearchForm() {
 
   return (
-    <div>
+    <section>
       <form className="search-form">
-        <label className="search-form__fields">
-          <input placeholder="Фильм" className="search-form__name-film"/>
+        <h2 className="search-form__fields">
+          <label>
+            <input
+              required
+              placeholder="Фильм"
+              className="search-form__name-film"
+            />
+          </label>
           <button className="search-form__search-button"/>
-        </label>
+        </h2>
         <div className="line"/>
         <Preloader/>
       </form>
-    </div>
+    </section>
   )
 
 }

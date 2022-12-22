@@ -1,9 +1,0 @@
-.header__container {
-    display: grid;
-}
-
-@media screen and (max-width: 500px) {
-    .header__container {
-        width: 250px;
-    }
-}

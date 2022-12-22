@@ -3,10 +3,10 @@ import React from "react";
 function Preloader() {
 
   return(
-    <div className="preloader">
-      <p className="preloader__name">Короткометражки</p>
+    <section className="preloader">
+      <h2 className="preloader__name">Короткометражки</h2>
       <input type="checkbox" className="preloader__check"/>
-    </div>
+    </section>
   )
 
 }

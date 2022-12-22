@@ -12,11 +12,11 @@ function MoviesCardList({cards, saveFilm}) {
   )
 
   return(
-    <div className="movies-cardc-list">
+    <section className="movies-cardc-list">
       <ul className={`movies-cardc-list__list ${saveFilm && "movies-cardc-list__list_saved-movies"}`}>
         {moviesCardElement}
       </ul>
-    </div>
+    </section>
 
   )
 }

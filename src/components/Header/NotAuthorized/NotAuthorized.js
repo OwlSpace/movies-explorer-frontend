@@ -3,10 +3,12 @@ import React from "react";
 function NotAuthorized() {
 
   return (
-    <nav className="navbar__menu-not-autorized">
-      <a href="/signup" className="header__link-register" >Регистрация</a>
-      <a href="/signin" className="header__link-login">Войти</a>
-    </nav>
+    <div className="not-autorized">
+      <nav className="not-autorized__menu">
+        <a href="/signup" className="not-autorized__link-register">Регистрация</a>
+        <a href="/signin" className="not-autorized__link-login">Войти</a>
+      </nav>
+    </div>
   )
 
 }

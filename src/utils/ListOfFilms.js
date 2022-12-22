@@ -25,7 +25,7 @@ const listOfFilms =[
   },
   {
     name: 'Бег это свобода',
-    link: 'https://regnum.ru/uploads/pictures/news/2016/09/24/regnum_picture_1474723058452914_normal.jpg',
+    link: 'https://xakac.info/files/news/72/ed/header.jpg',
     like: true,
     time: '1ч42м'
   },

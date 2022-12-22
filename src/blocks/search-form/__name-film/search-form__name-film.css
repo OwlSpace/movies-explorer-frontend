@@ -12,6 +12,10 @@
     line-height: 34px;
 }
 
+.search-form__name-film:focus {
+    border-bottom: 1px solid #4285F4;;
+}
+
 @media screen and (max-width: 900px) {
     .search-form__name-film {
         width: 500px;

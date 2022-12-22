@@ -7,13 +7,13 @@ function SavedMovies() {
   const saveFilm = true;
 
   return (
-    <div>
+    <section className="seved-movies">
       <SearchForm/>
       <MoviesCardList
         cards={likesFilm}
         saveFilm={saveFilm}
       />
-    </div>
+    </section>
   )
 
 }

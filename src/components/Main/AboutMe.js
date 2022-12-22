@@ -4,7 +4,7 @@ import fotoProfel from "../../images/photo-my-profil.jpg"
 
 function AboutMe() {
   return (
-    <div className="about-me">
+    <section className="about-me">
       <h2 className="about-me__chapter">Студент</h2>
       <div className="about-me__container">
       <div className="about-me__my-info">
@@ -17,7 +17,7 @@ function AboutMe() {
       <img src={fotoProfel} alt='Фото профиля' className="about-me__pfoto-profil"/>
       </div>
       <Portfolio />
-    </div>
+    </section>
   )
 }
 

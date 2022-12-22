@@ -4,33 +4,26 @@
 @import url('./blocks/page/page.css');
 
 @import url('./blocks/header/header.css');
-@import url('./blocks/header/__list/header__list.css');
-@import url('./blocks/header/__list/_open/header__list_open.css');
-@import url('./blocks/header/__list-element/header__list-element.css');
-@import url('./blocks/header/__link/_activ/header__link_activ.css');
 @import url('./blocks/header/_color/header_color.css');
 @import url('./blocks/header/__logo/header__logo.css');
-@import url('./blocks/header/__overlay/header__overlay.css');
-@import url('./blocks/header/__nav/header__nav.css');
-@import url('./blocks/header/__nav/_open/header__nav_open.css');
-@import url('./blocks/header/__button-main/header__button-main.css');
-@import url('blocks/header/__link-register/header__link-register.css');
-@import url('blocks/header/__link-login/header__link-login.css');
-@import url('./blocks/header/__icon/header__icon.css');
-@import url('./blocks/header/__button-account/header__button-account.css');
-@import url('./blocks/header/__button-save-film/header__button-save-film.css');
-@import url('./blocks/header/__button-film/header__button-film.css');
-@import url('./blocks/header/__container/header__container.css');
 
-@import url('./blocks/navbar/navbar.css');
-@import url('./blocks/navbar/__bar/navbar__bar.css');
-@import url('./blocks/navbar/__container/navbar__container.css');
-@import url('./blocks/navbar/__hamb/navbar__hamb.css');
-@import url('./blocks/navbar/__menu/navbar__menu.css');
-@import url('./blocks/navbar/__button-account/navbar__button-account.css');
-@import url('./blocks/navbar/__button-film/navbar__button-film.css');
-@import url('./blocks/navbar/__button-save-film/navbar__button-save-film.css');
-@import url('./blocks/navbar/__menu-not-autorized/navbar__menu-not-autorized.css');
+@import url('blocks/authorized-header/__list/authorized-header__list.css');
+@import url('blocks/authorized-header/__list/_open/authorized-header__list_open.css');
+@import url('blocks/authorized-header/__list-element/authorized-header__list-element.css');
+@import url('blocks/authorized-header/__overlay/authorized-header__overlay.css');
+@import url('blocks/authorized-header/__menu/authorized-header__menu.css');
+@import url('blocks/authorized-header/__menu/_open/authorized-header__menu_open.css');
+@import url('blocks/authorized-header/__icon/authorized-header__icon.css');
+@import url('blocks/authorized-header/__link/authorized-header__link.css');
+@import url('blocks/authorized-header/__list-link/authorized-header__list-link.css');
+@import url('blocks/authorized-header/__list-link/_account/authorized-header__list-link_account.css');
+@import url('blocks/authorized-header/__bar/authorized-header__bar.css');
+@import url('blocks/authorized-header/__hamb/authorized-header__hamb.css');
+@import url('blocks/authorized-header/__navigation/authorized-header__navigation.css');
+
+@import url('blocks/not-autorized/__menu/not-autorized__menu.css');
+@import url('blocks/not-autorized/__link-register/not-autorized__link-register.css');
+@import url('blocks/not-autorized/__link-login/not-autorized__link-login.css');
 
 @import url('blocks/form/form.css');
 @import url('blocks/form/__button/form__button.css');

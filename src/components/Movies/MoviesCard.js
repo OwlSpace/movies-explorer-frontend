@@ -10,7 +10,7 @@ function MoviesCard({id, card, saveFilm}) {
   return(
 
     <li className="movies-card">
-      <img src={link} alt="" className="movies-card__image"/>
+      <img src={link} alt="обложка фильма" className="movies-card__image"/>
       <div className="movies-card__container">
         <h2 className="movies-card__title">{name}</h2>
         <button className={cardButtonClassName} type="button"/>

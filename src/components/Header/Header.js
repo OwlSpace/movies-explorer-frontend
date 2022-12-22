@@ -9,7 +9,7 @@ function Header({pathName}) {
 
   return (
     <header className={`header ${isLogin && `header_color`}`}>
-      <img src={logo} alt='логотип' className='header__logo'/>
+      <a href="/" className="header__logo" />
       {
         isLogin ? (
             <Authorized/>

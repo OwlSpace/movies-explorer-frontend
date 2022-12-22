@@ -2,7 +2,7 @@ import React from "react";
 
 function Portfolio() {
   return (
-    <div className="portfolio">
+    <section className="portfolio">
       <p className="portfolio__title">Портфолио</p>
       <ul className="portfolio__list">
         <li className="portfolio__list-element">
@@ -15,7 +15,7 @@ function Portfolio() {
           <a href="https://owlspace.github.io/react-mesto-auth" target="_blank" className="portfolio__list-link">Одностраничное приложение</a>
         </li>
       </ul>
-    </div>
+    </section>
   )
 }
 
