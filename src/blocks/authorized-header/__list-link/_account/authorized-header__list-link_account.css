@@ -1,0 +1,9 @@
+.authorized-header__list-link_account {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    line-height: 16px;
+    width: 100px;
+    height: 33px;
+    margin: 0 148px 92px;
+}

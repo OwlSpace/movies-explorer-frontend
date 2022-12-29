@@ -1,0 +1,22 @@
+.footer__list-item-link {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    margin-left: 20px;
+    text-decoration: none;
+    transition: opacity .2s linear;
+}
+
+.footer__list-item-link:hover {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 400px) {
+    .footer__list-item-link {
+        margin: 0;
+        font-size: 12px;
+        line-height: 15px;
+    }
+}

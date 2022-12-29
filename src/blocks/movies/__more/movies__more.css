@@ -1,0 +1,27 @@
+.movies__more {
+    width: 320px;
+    height: 36px;
+    margin: 60px auto 80px;
+    padding: 0;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    display: block;
+    color: #FFFFFF;
+    background: #2F2F2F;
+    border-radius: 6px;
+    border: none;
+}
+
+@media screen and (max-width: 800px) {
+    .movies__more {
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .movies__more {
+        margin: 61px auto 89px;
+    }
+}

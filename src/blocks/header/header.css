@@ -1,0 +1,12 @@
+.header {
+    background-color: #073042;
+    height: 74px;
+    display: grid;
+    grid-auto-flow: column;
+}
+
+@media screen and (max-width: 500px){
+    .header {
+        /*width: 200px;*/
+    }
+}

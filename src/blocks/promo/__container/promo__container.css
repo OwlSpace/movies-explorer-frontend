@@ -1,0 +1,9 @@
+.promo__container {
+    order: -1;
+}
+
+@media screen and (max-width: 800px) {
+    .promo__container {
+        order: 0;
+    }
+}

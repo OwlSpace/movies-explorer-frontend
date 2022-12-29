@@ -1,0 +1,38 @@
+.techs__subtitle {
+    padding: 0;
+    margin: 90px 0 26px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 58px;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+    .techs__subtitle {
+        margin: 80px auto 22px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .techs__subtitle {
+        margin-top: 50px;
+        font-size: 45px;
+        line-height: 54px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .techs__subtitle {
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .techs__subtitle {
+        margin-top: 60px;
+        font-size: 30px;
+        line-height: 36px;
+    }
+}

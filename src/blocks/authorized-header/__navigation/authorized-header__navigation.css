@@ -1,0 +1,14 @@
+.authorized-header__navigation {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 18px 70px 0 0;
+}
+
+
+@media screen and (max-width: 800px) {
+    .authorized-header__navigation {
+        display: none;
+        width: 200px;
+    }
+}

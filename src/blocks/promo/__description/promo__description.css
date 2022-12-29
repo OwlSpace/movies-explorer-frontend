@@ -1,0 +1,36 @@
+.promo__description {
+    max-width: 310px;
+    margin: 0;
+    padding: 0 70px 146px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+@media screen and (max-width: 1150px){
+    .promo__description {
+        padding-left: 50px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .promo__description {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 16px;
+        text-align: center;
+        max-width: 260px;
+        margin: 0 auto 92px;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .promo__description {
+        margin-bottom: 80px;
+    }
+}

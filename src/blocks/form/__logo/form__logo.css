@@ -1,0 +1,5 @@
+@media screen and (max-width: 500px) {
+    .form__logo {
+        margin: 56px auto 0;
+    }
+}

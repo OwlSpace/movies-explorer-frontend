@@ -1,0 +1,24 @@
+.form__text {
+    margin: 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #8B8B8B;
+}
+
+@media screen and (max-width: 900px) {
+    .form__text {
+        margin-bottom: 232px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .form__text {
+        width: 260px;
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 30px;
+    }
+}

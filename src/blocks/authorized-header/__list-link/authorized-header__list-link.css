@@ -1,0 +1,37 @@
+.authorized-header__list-link {
+    background: #202020;
+    border: none;
+    color: #FFFFFF;
+    width: 200px;
+    height: 22px;
+    padding: 0;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 22px;
+    margin: 159px 29px 28px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.authorized-header__list-link:nth-child(2) {
+    margin: 0 29px 28px;
+}
+
+.authorized-header__list-link:nth-child(3) {
+    margin: 0 29px;
+}
+
+.authorized-header__list-link:nth-child(4) {
+
+}
+
+.authorized-header__list-link:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+.authorized-header__list-link:active {
+    color: #FFFFFF;
+    text-decoration: underline;
+}

@@ -1,0 +1,38 @@
+.preloader__check {
+    width: 36px;
+    height: 14px;
+    margin: 2px 1px;
+    position: absolute;
+    -webkit-appearance: none;
+    outline: none;
+    background: #C4C4C4;
+    border-radius: 20px;
+    transition: .4s;
+    z-index: 0;
+}
+@media screen and (max-width: 900px) {
+    .preloader__check {
+        margin-left: 133px;
+    }
+}
+
+.preloader__check:checked {
+    background: #3DDC84;
+}
+
+.preloader__check:before {
+    content: '';
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    top: 2px;
+    left: 2px;
+    background: #FFFFFF;
+    transition: .4s;
+    transform: scale(1.1);
+}
+
+.preloader__check:checked:before {
+    left: 24px;
+}

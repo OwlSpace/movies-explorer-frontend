@@ -1,0 +1,21 @@
+.profile__exit {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    border: none;
+    color: #EE3465;
+    background: #202020;
+}
+
+@media screen and (max-width: 900px) {
+    .profile__exit {
+        margin-bottom: 269px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .profile__exit {
+        margin-bottom: 40px;
+    }
+}

@@ -1,0 +1,12 @@
+.form {
+    width: 396px;
+    margin: 70px auto 0;
+    display: grid;
+}
+
+@media screen and (max-width: 500px) {
+    .form {
+        width: 260px;
+        margin-top: 0;
+    }
+}

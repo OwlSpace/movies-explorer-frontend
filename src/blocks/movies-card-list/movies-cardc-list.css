@@ -1,0 +1,8 @@
+.movies-cardc-list {
+    /*display: block;*/
+}
+
+@media screen and (max-width: 1230px) {
+    .movies-cardc-list {
+    }
+}

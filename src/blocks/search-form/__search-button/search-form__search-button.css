@@ -1,0 +1,18 @@
+.search-form__search-button {
+    background-image: url("../../../images/find.svg");
+    padding: 11px;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    border: none;
+}
+
+.search-form__search-button:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 900px) {
+    .search-form__search-button {
+    }
+}
