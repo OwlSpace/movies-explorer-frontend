@@ -1,43 +1,64 @@
 import React from "react";
 import logo from "../images/logo.svg";
+import useInput from "../utils/Validation";
 
-function Register() {
+function Register({onRegist, textError}) {
 
-  return(
-    <form className="form">
-      <img className="form__logo" src={logo} alt="логотип"/>
+  const name = useInput('', {isEmpty: true, isName: true });
+  const email = useInput('', {isEmpty: true, isEmail: true});
+  const password = useInput('', {isEmpty: true, isPassword: true});
+
+
+  function handleSubmit(e) {
+    e.preventDefault();
+    onRegist(name.value, email.value, password.value);
+  }
+
+
+  return (
+    <form className="form" onSubmit={handleSubmit}>
+      <a href="/"><img className="form__logo" src={logo} alt="логотип"/></a>
       <h2 className="form__title">Добро пожаловать!</h2>
       <label>
         <p className="form__input-text">Имя</p>
         <input
+          onChange={e => name.onChange(e)}
+          onBlur={e => name.onBlur(e)}
           className="form__input"
-          value="Кристина"
           minLength="2"
           maxLength="32"
+          value={name.value}
         />
-        <p className="form__error">Неккоректно имя</p>
+        {(name.isDerty && name.nameError) && <p className="form__error">{name.mesError}</p>}
       </label>
       <label>
         <p className="form__input-text">E-mail</p>
         <input
+          onChange={e => email.onChange(e)}
+          onBlur={e => email.onBlur(e)}
           className="form__input"
-          type="email"
-          value="kris@y.ru"
           minLength="2"
           maxLength="32"
+          value={email.value}
         />
-        <p className="form__error">Неккоректен адресс почты</p>
+        {(email.isDerty && email.emailError) && <p className="form__error">{email.mesError}</p>}
       </label>
       <label>
         <p className="form__input-text">Пароль</p>
         <input
-          className="form__input form__input-error"
-          value="1234"
+          onChange={e => password.onChange(e)}
+          onBlur={e => password.onBlur(e)}
+          className="form__input"
           type="password"
+          value={password.value}
         />
-        <p className="form__error form__error_activ">Что-то не так...</p>
+        {(password.isDerty && password.passwordError) && <p className="form__error">{password.mesError}</p>}
       </label>
-      <button className="form__button">Зарегистрироваться</button>
+
+      <button className="form__button" disabled={!name.inputValid || !email.inputValid || !password.inputValid}>
+        {textError ? <p className="form__text-error">{textError}</p> : ''}
+        Зарегистрироваться
+      </button>
       <p className="form__text">
         Уже зарегистрированы?
         <a className="form__link" href='/signin'> Войти</a>

@@ -8,3 +8,8 @@
     background-repeat: no-repeat;
     background-position: 7px 8px;
 }
+
+.movies-card__button-like:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}

@@ -1,22 +1,61 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
+import {useLocation} from "react-router-dom";
 
-function MoviesCard({id, card, saveFilm}) {
-  const {name, link, like, time} = card;
-  let cardButtonClassName = `movies-card__button-like ${like && 'movies-card__button-like_active'}`;
-  if (saveFilm) {
-    cardButtonClassName = 'movies-card__button-delet';
+function MoviesCard({card, toggleLike, filmSave}) {
+
+  const {pathname} = useLocation();
+  const {nameRU, image, duration, trailerLink} = card;
+  const [like, setLike] = useState(false);
+
+  useEffect(() => {
+    if (pathname !== "/saved-movies") {
+      const savedFilm = filmSave.filter((obj) => obj.movieId === card.id);
+      if (savedFilm.length > 0) {
+        setLike(true);
+      } else {
+        setLike(false);
+      }
+    }
+
+  }, [filmSave, pathname, card.id])
+
+
+  function handleLike() {
+    const newLike = !like;
+    const savedFilm = filmSave.filter((film) => film.movieId === card.id);
+
+    toggleLike({...card, _id: savedFilm.length > 0 ? savedFilm[0]._id : null}, newLike);
   }
 
-  return(
+  function handleDelete() {
+    toggleLike(card);
+  }
+
+  function timeFilm(duration) {
+    return `${Math.floor(duration / 60)}ч ${duration % 60}м`
+  }
+
+  return (
 
     <li className="movies-card">
-      <img src={link} alt="обложка фильма" className="movies-card__image"/>
+      <a href={trailerLink} target="_blank" rel="noreferrer">
+        <img src={pathname === '/movies' ? `https://api.nomoreparties.co${image.url}` : `${card.image}`}
+             alt="обложка фильма"
+             className="movies-card__image"
+        />
+      </a>
       <div className="movies-card__container">
-        <h2 className="movies-card__title">{name}</h2>
-        <button className={cardButtonClassName} type="button"/>
+        <h2 className="movies-card__title">{nameRU}</h2>
+        {
+          pathname === '/saved-movies' ?
+            <button className='movies-card__button-delet' type="button" onClick={handleDelete}/> :
+            <button className={`movies-card__button-like ${like && 'movies-card__button-like_active'}`} type="button"
+                    onClick={handleLike}/>
+        }
+
       </div>
       <div className="line"/>
-      <p className="movies-card__time">{time}</p>
+      <p className="movies-card__time">{timeFilm(duration)}</p>
     </li>
 
   )
