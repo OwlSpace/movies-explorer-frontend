@@ -94,9 +94,11 @@
 
 @import url('./blocks/authorizations/authorizations.css');
 
-@import url('./blocks/preloader/preloader.css');
-@import url('./blocks/preloader/__check/preloader__check.css');
-@import url('./blocks/preloader/__name/preloader__name.css');
+@import url('blocks/switch/switch.css');
+@import url('blocks/switch/__check/switch__check.css');
+@import url('blocks/switch/__name/switch__name.css');
+
+@import url('blocks/preloader/preloader.css');
 
 @import url('blocks/search-form/search-form.css');
 @import url('blocks/search-form/__fields/search-form__fields.css');
@@ -118,6 +120,12 @@
 @import url('blocks/movies-card-list/movies-cardc-list.css');
 @import url('blocks/movies-card-list/__list/movies-cardc-list__list.css');
 @import url('blocks/movies-card-list/__list_saved-movies/movies-cardc-list__list_saved-movies.css');
+
+@import url('./blocks/popup/popup.css');
+@import url('./blocks/popup/_open/popup_open.css');
+@import url('./blocks/popup/__button/popup__button.css');
+@import url('blocks/popup/__form/popup__form.css');
+@import url('./blocks/popup/__text/popup__text.css');
 
 @import url('./blocks/footer/footer.css');
 @import url('./blocks/footer/__title/footer__title.css');

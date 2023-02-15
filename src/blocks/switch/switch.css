@@ -1,0 +1,18 @@
+.switch {
+    padding-top: 32px;
+    display: grid;
+}
+
+@media screen and (max-width: 900px) {
+    .switch {
+        display: flex;
+        justify-content: end;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .switch {
+        display: flex;
+        justify-content: center;
+    }
+}

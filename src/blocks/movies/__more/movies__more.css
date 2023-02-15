@@ -14,6 +14,11 @@
     border: none;
 }
 
+.movies__more:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
 @media screen and (max-width: 800px) {
     .movies__more {
         margin-top: 50px;

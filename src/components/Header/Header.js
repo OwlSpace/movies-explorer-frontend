@@ -1,17 +1,14 @@
 import React from "react";
-import logo from "../../images/logo.svg"
 import Authorized from "./Authorized/Authorized";
 import NotAuthorized from "./NotAuthorized/NotAuthorized";
 
-function Header({pathName}) {
-
-  const isLogin = pathName !== '/';
+function Header({loggedIn}) {
 
   return (
-    <header className={`header ${isLogin && `header_color`}`}>
+    <header className={`header ${loggedIn && `header_color`}`}>
       <a href="/" className="header__logo" />
       {
-        isLogin ? (
+        loggedIn ? (
             <Authorized/>
           )
           : (

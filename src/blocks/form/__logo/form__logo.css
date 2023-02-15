@@ -1,3 +1,8 @@
+.form__logo:hover {
+    opacity: 0.6;
+    cursor: pointer;
+}
+
 @media screen and (max-width: 500px) {
     .form__logo {
         margin: 56px auto 0;

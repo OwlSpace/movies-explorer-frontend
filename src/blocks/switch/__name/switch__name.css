@@ -1,4 +1,4 @@
-.preloader__name{
+.switch__name{
     margin: 0 0 0 48px;
     width: 117px;
     font-style: normal;
@@ -7,13 +7,13 @@
     line-height: 18px;
 }
 @media screen and (max-width: 900px) {
-    .preloader__name {
+    .switch__name {
         margin: 0 52px 0 0;
     }
 }
 
 @media screen and (max-width: 500px) {
-    .preloader__name {
+    .switch__name {
         font-size: 11px;
         margin: 0;
     }

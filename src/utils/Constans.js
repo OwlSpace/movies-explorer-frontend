@@ -1,0 +1,15 @@
+export const movies_server = 'https://api.nomoreparties.co';
+export const main_server = 'https://api.diploma.efimova.nomoredomains.icu';
+export const registerError = 'Ошибка регистрации!';
+export const loginError = 'Ошибка авторизации!';
+export const serverError = 'Ошибка сервера!';
+export const serverMoviesError = 'Во время запроса произошла ошибка. Возможно, проблема с соединением или сервер недоступен. Подождите немного и попробуйте ещё раз';
+export const deleteCardError = 'Неудолось удалить карточку, попробуйте позже';
+export const addCardError = 'Неудалось добавить карточку, попробуйте позже';
+export const searchError= 'Введите ключевое слово';
+export const validEmailError= 'Некорректный адрес электронной почты';
+export const validUserNameError= 'Некорректное имя пользователя';
+export const validPasswordError= 'Некорректный пароль';
+export const updateUserInfoError= 'Неудалось обновить информацию пользователя! Попробуйте позже';
+export const updateUserInfoGut= 'Обновление данных прошло успешно!';
+export const firstEntry= 'Введите ключевое значение в посковую строку';

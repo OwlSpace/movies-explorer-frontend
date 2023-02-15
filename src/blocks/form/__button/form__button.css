@@ -7,8 +7,17 @@
     color: #FFFFFF;
 }
 
+.form__button:disabled {
+    opacity: 0.3;
+}
+
 @media screen and (max-width: 500px) {
     .form__button {
         width: 260px;
     }
+}
+
+.form__text-error {
+    margin-top: -45px;
+    color: red;
 }

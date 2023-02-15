@@ -28,7 +28,7 @@
     .movies-cardc-list__list {
         margin: 70px 30px 10px;
         grid-template-columns: repeat(2, 1fr);
-        height: 1240px;
+        /*height: 1240px;*/
         overflow-y: hidden;
         column-gap: 30px;
     }
@@ -45,6 +45,6 @@
     .movies-cardc-list__list {
         grid-template-columns: repeat(1, 1fr);
         row-gap: 34px;
-        height: 1440px;
+        /*height: 1440px;*/
     }
 }

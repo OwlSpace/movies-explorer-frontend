@@ -1,4 +1,4 @@
-.preloader__check {
+.switch__check {
     width: 36px;
     height: 14px;
     margin: 2px 1px;
@@ -11,16 +11,16 @@
     z-index: 0;
 }
 @media screen and (max-width: 900px) {
-    .preloader__check {
+    .switch__check {
         margin-left: 133px;
     }
 }
 
-.preloader__check:checked {
+.switch__check:checked {
     background: #3DDC84;
 }
 
-.preloader__check:before {
+.switch__check:before {
     content: '';
     position: absolute;
     width: 10px;
@@ -33,6 +33,11 @@
     transform: scale(1.1);
 }
 
-.preloader__check:checked:before {
+.switch__check:checked:before {
     left: 24px;
+}
+
+.switch__check:hover {
+    cursor: pointer;
+    opacity: 0.6;
 }
